@@ -13,6 +13,9 @@
 /* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 
 @media only screen and (min-width: 47.25em) and (max-width:63.9375em){
+    .mb{
+        margin: 0;
+    }
     
     .navigation__ocean-content{
         word-break: break-all;
@@ -51,8 +54,9 @@
     }
     .work__project-show-list{
         position:absolute;
-        top: 90px;
-        right: 50px;
+        top: 100px;
+        right: 170px;
+        height: unset;
         
     }
     .work__project-show-item:nth-child(1):after {
@@ -77,6 +81,8 @@
 
 
     }
+
+
     
     .work__project{
         padding-right: 0;        
@@ -109,6 +115,9 @@
 
     .experiences__project-box{
         width: calc(100%/2);
+    }
+    .work__project-button{
+        text-align: center
     }
 }
 

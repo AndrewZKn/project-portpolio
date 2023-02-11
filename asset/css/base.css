@@ -24,6 +24,42 @@ body{
     display: block;
 }
 
+
+.magic-link{
+    background-image: url(https://ik.imagekit.io/fyhbxzra7/portpolio__journey/journey__image/Untitled-removebg-preview.png?ik-sdk-version=javascript-1.4.3&updatedAt=1676086600197);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    transform: scale(1.8) translateY(-90%);
+
+}
+
+.magic-link-light{
+    background-image: url(https://ik.imagekit.io/fyhbxzra7/portpolio__journey/journey__image/Untitled-removebg-preview.png?ik-sdk-version=javascript-1.4.3&updatedAt=1676086600197);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    transform: scale(1.8) ;
+
+}
+.nth{
+    background-image: url(https://ik.imagekit.io/fyhbxzra7/portpolio__journey/journey__image/Untitled-removebg-preview.png?ik-sdk-version=javascript-1.4.3&updatedAt=1676086600197) !important;
+    background-position: center !important; 
+    background-repeat: no-repeat !important;
+    background-size: contain !important; 
+    transform: scale(1.8) translateY(-100%);
+    margin: 0 0 153px 0;
+}
+.mb1{
+    margin-bottom: 50px;
+}
+.mb{
+    margin-bottom: 90px;
+}
+.mt{
+    margin-top: 120px;
+}
+
 @keyframes wave {
     from{
         transform: translateY(40%);

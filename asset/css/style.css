@@ -334,6 +334,10 @@
     bottom: 65px;
     left: 65px;
     z-index: 10;
+    background-image: url(https://ik.imagekit.io/fyhbxzra7/portpolio__journey/journey__image/istockphoto-537491105-612x612-removebg-preview.png?ik-sdk-version=javascript-1.4.3&updatedAt=1676085904810);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
 }
 .navigation__choose-box{
     margin: 20px 0 20px 0;
@@ -473,7 +477,8 @@
     margin-top: 10px;
     color: var(--color-text-page);
     line-height: 1.8rem;
-    width: 80%;
+    width: 70%;
+    word-break: break-all;
     letter-spacing: 1px;
     font-size: 0.9rem;
     height: 3.6rem;
@@ -559,6 +564,15 @@
     flex: 3 ;
 
 }
+.work__project-show-title:nth-child(2){
+    display: none;
+}
+.work__project-show-title:nth-child(3){
+    display: none;
+}
+.work__project-show-title:nth-child(4){
+    display: none;
+}
 .work__project-content{
     width: 80%;
     margin: 20px 0;
@@ -567,7 +581,6 @@
 }
 .work__project-button{
    width: 100%;
-   text-align: center;
 }
 .work__project-btn-btn{
     padding: 14px 8px;
@@ -575,6 +588,7 @@
     color: var(--color-text);
     font-weight: bold;
     font-size: 0.8rem;
+    text-decoration: none;
     position: relative;
 
 }
@@ -588,73 +602,61 @@
     left: -5px;
     padding: 23px 60px;
     border: 2px solid var(--color-button);
+    
 }
 
 
 .work__project-show-list{
     list-style: none;
     position: absolute;
+    bottom: 0!important;
+    height: 500px;
 }
-.work__project-show-item:nth-child(1){
-    margin-bottom: 120px;
-}
+
+
 .work__project-show-item{
-    margin: 20px 30px 0 0;
-    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
+}
 
-}
-.work__project-show-item:nth-child(1):after{
-    top: 43px;
-    width: 1px;
-    position: absolute;
-    content: "";
-    background-color: var(--color-text-page);
-    padding: 55px 0;
-    margin: 10px 0;
-}
+
 .work__project-show-link{
+    background: none;
     color: var(--color-text);  
     text-decoration: none; 
-    background-image: url(https://ik.imagekit.io/fyhbxzra7/portpolio__journey/journey__image/download__2_-removebg-preview.png?ik-sdk-version=javascript-1.4.3&updatedAt=1675994915930);
     padding: 15px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
     border-radius: 50%;
-    
+    outline: none;
+    border: none;    
 }
+
 
 .work__project-show-project{
     height: 250px;
     flex: 5 700px;
+    overflow: hidden;
     
 }
 .work__project-show-pc{
     position: absolute;
     height:500px;
-    width: 61%;
+    width: 55%;
     border-radius: 10px;
     box-shadow: 4px 3px 0 0 #ccc;
-    /* background-image: url(https://ik.imagekit.io/fyhbxzra7/portpolio__journey/journey__image/327267284_1142829939751394_4942771006916362403_n.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1675959902357); */
+    /* background-image: url(https://ik.imagekit.io/fyhbxzra7/portpolio__journey/project__webshop/Screenshot_2023-02-11_100322.png?ik-sdk-version=javascript-1.4.3&updatedAt=1676084682670); */
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    background-size: contain;
 
 }
 .work__project-show-mobile{
     width: 300px;
     height: 550px;
-    /* background-image: url(https://ik.imagekit.io/fyhbxzra7/portpolio__journey/journey__image/0bce523ef5eeefea0447285d2d4e486e.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1675959903225); */
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    
     border-radius: 10px;
     box-shadow: 4px 3px 0 0 #ccc;
     position: absolute;
-    right: 190px;
+    right: 103px;
     bottom: 0;
 }
 /* END WORK-PROJECT -----------------------------------------------------------------------------------------------------------------------------------------------> */
@@ -824,9 +826,15 @@
     color: var(--color-text);
     margin: 40px 20px  40px 0;
     word-break: break-all;
+    width: 80%;
 
 
 }
+.work__project-creator-span{
+    display: block;
+    margin: 10px 0;
+}
+
 .work__project-creator{
     display: block;
 }
@@ -856,6 +864,7 @@
 }
 h3.work-project-connect-value-span{
     color: var(--color-text-page);
+    padding-top: 4px;
     
 }
 h1.work-project-connect-value-span{
@@ -871,11 +880,11 @@ h1.work-project-connect-value-span{
 .work-project-connect-btn{
     height: 3.6rem;
     line-height: 1.8rem;
-    background-color: var(--color-hide-bg);
+    background-color: var(--color-button);
     border: none;
     color: var(--color-text);
     padding: 0 15px;
-    margin: 20px 10px 20px 0;
+    margin: 20px 10px 0 0;
 
 }
 
@@ -946,9 +955,11 @@ h1.work-project-connect-value-span{
 /* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 
 .app__footer{
-    padding-top: 100px;
-    margin: 40px 0;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 40px 0;
+    color: var(--color-text);
+    background-color: var(--color-black);
+
 }
