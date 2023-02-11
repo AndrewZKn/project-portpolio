@@ -23,8 +23,12 @@ body{
 .block{
     display: block;
 }
-
-
+.none{
+    display: none ;
+}
+.flex{
+    display: flex;
+}
 .magic-link{
     background-image: url(https://ik.imagekit.io/fyhbxzra7/portpolio__journey/journey__image/Untitled-removebg-preview.png?ik-sdk-version=javascript-1.4.3&updatedAt=1676086600197);
     background-position: center;

@@ -415,4 +415,32 @@
         height: unset;
         margin: 40px 0;
     }
+    /*///////////////////////////////////////////////////////*/
+    .experience__certificate-img{
+        margin: 0;
+    }
+    .experience__certificate-item{
+        display: block;
+        width: 100%;
+        text-align: center;
+        
+    }
+    .experience__certificate-item .experience__certificate-img{
+        width: calc(100%/5);
+        
+        margin: 0 2px ;
+    }
+    .experience__certificate-item .experience__certificate-img{
+    }
+    .experience__certificate-title{
+        font-size: 0.9rem;
+        z-index: 1;
+    }
+    .experience__certificate-close{
+        right: 25px;
+        bottom: 25px;
+    }
+    .work__project-contact-content{
+        width: 100%;
+    }
 }

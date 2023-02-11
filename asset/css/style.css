@@ -618,6 +618,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: 2.5s;
 }
 
 
@@ -637,6 +638,15 @@
     flex: 5 700px;
     overflow: hidden;
     
+}
+.work__project-show-project:nth-child(2){
+    display: none;
+}
+.work__project-show-project:nth-child(3){
+    display: none;
+}
+.work__project-show-project:nth-child(4){
+    display: none;
 }
 .work__project-show-pc{
     position: absolute;
@@ -961,5 +971,108 @@ h1.work-project-connect-value-span{
     padding: 40px 0;
     color: var(--color-text);
     background-color: var(--color-black);
+
+}
+
+
+
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+                    /*//////////////////////////////////////////////////////[CERTIFICATE___]//////////////////////////////////////////////////////*
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+.experience__project-certificate{
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0 ,0.9);
+}
+.experience__certificate-container{
+    
+    width: 70%;
+    height: 70%;
+    background-color: var(--color-button);
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: 12px 10px rgba(114, 60, 60, 0.315);
+}
+.experience__certificate-tivi{
+    width: 95%;
+    height: 70%;
+    background-color: black;
+    overflow: hidden;
+    border-radius: 10px;
+    position: relative;
+    
+}
+.experience__certificate-list{
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    list-style: none;
+}
+.experience__certificate-item{
+    width: calc(100%/6);
+    height:150px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    list-style: none;
+
+}
+
+.experience__certificate-img{
+    width: 100%;
+    height: 100%;
+    margin: 0 20px;
+    object-fit: contain;
+}
+.experience__certificate-title{
+    position: absolute;
+    bottom: 50px;
+    display: block;
+    color: var(--color-text);
+    z-index: 1;
+}
+.experience__certificate-button{
+    
+
+}
+.experience__certificate-btn-left{
+    left: 0;
+    position: absolute;
+    top: 50%;
+
+
+}
+.experience__certificate-btn-right{
+    position: absolute;
+    right: 0;
+    top: 50%;
+    
+}
+.experience__certificate-close{
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+    z-index: 4;
+}
+.btn{
+    padding: 10px;
+    background: none;
+    border: none;
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: var(--color-button);
 
 }
