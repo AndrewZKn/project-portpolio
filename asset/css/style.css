@@ -125,6 +125,7 @@
     margin: auto;
     width: 450px;
     height: 450px;
+    padding-bottom: 144px;
 
     
 }
@@ -371,7 +372,7 @@
 .experiences__project{
     width: 100vw;
     background-color: var(--color-black);
-    padding: 0 150px;
+    padding: 0 100px;
 
 
 }
@@ -522,7 +523,7 @@
     height: 100vh;
     background-color: var(--color-black);
     position: relative;
-    padding: 0 150px;
+    padding: 0 100px;
 
 }
 
@@ -611,6 +612,8 @@
     position: absolute;
     bottom: 0!important;
     height: 500px;
+   
+    
 }
 
 
@@ -740,7 +743,7 @@
 }
 
 .work__project-about-map{
-    background-image: url(https://ik.imagekit.io/fyhbxzra7/portpolio__journey/journey__image/treasure-map.png?ik-sdk-version=javascript-1.4.3&updatedAt=1675997613649);
+    background-image: url(https://ik.imagekit.io/fyhbxzra7/portpolio__journey/journey__image/Screenshot_2023-02-09_202729.png?ik-sdk-version=javascript-1.4.3&updatedAt=1676278435186);
     height: 800px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -754,7 +757,7 @@
     width: 100vw;
     padding-bottom:100px ;
     position: relative; 
-    padding: 0 150px 400px 150px;  
+    padding: 100px 100px 400px 100px;  
 }
 
 
@@ -1015,14 +1018,14 @@ h1.work-project-connect-value-span{
     
 }
 .experience__certificate-list{
-    width: 90%;
+    width: 100%;
     align-items: center;
     justify-content: center;
     display: flex;
     list-style: none;
 }
 .experience__certificate-item{
-    width: calc(100%/6);
+    width: calc(100%/5);
     height:150px;
     align-items: center;
     justify-content: center;
@@ -1034,7 +1037,8 @@ h1.work-project-connect-value-span{
 .experience__certificate-img{
     width: 100%;
     height: 100%;
-    margin: 0 20px;
+    /* margin: 0 20px; */
+    margin: 0 5px 0 5px 0;
     object-fit: contain;
 }
 .experience__certificate-title{

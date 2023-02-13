@@ -70,13 +70,13 @@
     .work__project-show-pc {
         width: 80%;
         height: 400px;
+        left: 100px;
         
     }
     .work__project-show-mobile{
         width: 200px;
         height: 400px;
-        
-        left: 33px;
+        left: 100px;
         top: 300px;
 
 
@@ -118,6 +118,15 @@
     }
     .work__project-button{
         text-align: center
+    }
+    .experience__certificate-tivi .experience__certificate-img{
+        margin: 0;
+    }
+    .experience__certificate-item{
+        width: calc(100%/4);
+    }
+    .experience__certificate-item .experience__certificate-img{
+        margin: 0;
     }
 }
 
@@ -265,6 +274,9 @@
     .work__project-content{
         padding: 20px 0 40px 0;
     }
+    .wrok__project-list{
+        z-index: 2;
+    }
     .work__project-about-heading{
         padding: 120px 0 0 0;
     }
@@ -277,8 +289,9 @@
     }
     
     .work__project-about-map{
-        background-size: contain;
-        height: 170px;
+            background-size: cover;
+            background-position: top;
+            height: 350px;
     }
 
     .work__project-post-container{
@@ -312,10 +325,16 @@
         padding-top: 100px;
     }
     .work__project-show-list{
-        display: none;
+        /* display: none; */
+        height: unset;
+        display: block;
+        align-items: center;
+        justify-content:center;
+        left: 25px;
+        
     }
     .work__project-show-item {
-        justify-content: right;
+        justify-content: center;
     }
     
     .work__project-show-item:nth-child(1):after {
@@ -338,6 +357,8 @@
         align-items: center;
         justify-content: center;
         position: relative;
+        z-index: 2;
+        top: 110px;
     }
     .work__project{
         padding-bottom: 0px;
@@ -399,6 +420,7 @@
     }   
     .work__project-post-title{
         margin-bottom: 0;
+
     }
     .work__project-post-span-content {
         font-size: 0.9rem;
@@ -416,31 +438,55 @@
         margin: 40px 0;
     }
     /*///////////////////////////////////////////////////////*/
-    .experience__certificate-img{
+    .experience__certificate-tivi {
+        height: 46%;
+    }
+    .experience__certificate-tivi .experience__certificate-img{
         margin: 0;
     }
+    .experience__certificate-item .experience__certificate-img{
+        margin: 0;
+        width: fit-content;
+
+
+    }
     .experience__certificate-item{
-        display: block;
-        width: 100%;
+        display: flex;
+        width:100%;
         text-align: center;
+        flex-wrap: wrap;
+        height: 100px;
+
+        
+    }
+
+
+    .experience__certificate-item .experience__certificate-img{
         
     }
     .experience__certificate-item .experience__certificate-img{
-        width: calc(100%/5);
-        
-        margin: 0 2px ;
     }
-    .experience__certificate-item .experience__certificate-img{
+    .experience__certificate-list{
+        width: 100%;
+        
+        margin-bottom: 115px;
+
     }
     .experience__certificate-title{
         font-size: 0.9rem;
         z-index: 1;
+        
+        top: 101px;
+
     }
     .experience__certificate-close{
         right: 25px;
-        bottom: 25px;
     }
     .work__project-contact-content{
         width: 100%;
+    }
+    .experience__certificate-container{
+        width: 100%;
+        height: 60%;
     }
 }
