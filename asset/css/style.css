@@ -20,6 +20,7 @@
     font-size: 1.6rem;
     color: var(--color-button);
 }
+
 /* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
                     /*//////////////////////////////////////////////////////[APP__HEADER___]//////////////////////////////////////////////////////*
 /* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
@@ -371,6 +372,7 @@
 
 .experiences__project{
     width: 100vw;
+    height: 100vh;
     background-color: var(--color-black);
     padding: 0 100px;
 
@@ -606,7 +608,6 @@
     
 }
 
-
 .work__project-show-list{
     list-style: none;
     position: absolute;
@@ -632,7 +633,9 @@
     padding: 15px;
     border-radius: 50%;
     outline: none;
-    border: none;    
+    border: none;   
+    cursor: pointer;
+
 }
 
 
@@ -656,7 +659,7 @@
     height:500px;
     width: 55%;
     border-radius: 10px;
-    box-shadow: 4px 3px 0 0 #ccc;
+    /* box-shadow: 4px 3px 0 0 #ccc; */
     /* background-image: url(https://ik.imagekit.io/fyhbxzra7/portpolio__journey/project__webshop/Screenshot_2023-02-11_100322.png?ik-sdk-version=javascript-1.4.3&updatedAt=1676084682670); */
     background-repeat: no-repeat;
     background-size: contain;
@@ -667,7 +670,7 @@
     height: 550px;
     
     border-radius: 10px;
-    box-shadow: 4px 3px 0 0 #ccc;
+    /* box-shadow: 4px 3px 0 0 #ccc; */
     position: absolute;
     right: 103px;
     bottom: 0;
@@ -735,7 +738,7 @@
     position: absolute;
     border: 3px solid var(--color-button);
     padding: 23px 72px;
-    top: -6px;
+    top: -5px;
     left: -5px;
 }
 .work__project-about-button:hover{
@@ -743,10 +746,14 @@
 }
 
 .work__project-about-map{
-    background-image: url(https://ik.imagekit.io/fyhbxzra7/portpolio__journey/journey__image/Screenshot_2023-02-09_202729.png?ik-sdk-version=javascript-1.4.3&updatedAt=1676278435186);
+    background-image: url(https://ik.imagekit.io/fyhbxzra7/portpolio__journey/journey__image/vietnamHigh.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1676417146366);
     height: 800px;
     background-repeat: no-repeat;
     background-size: cover;
+    margin: auto;
+    width: 50%;
+    display: flex;
+
 }
 
 /* END WORK-ABOUT -------------------------------------------------------------------------------------------------------------------------------------------------> */
@@ -755,6 +762,7 @@
 .work__project-post{
     background-color: black;
     width: 100vw;
+    height: 110vh;
     padding-bottom:100px ;
     position: relative; 
     padding: 100px 100px 400px 100px;  
@@ -783,7 +791,7 @@
    font-size: 1.5rem;
 }
 .work__project-post-span{
-    font-size: 0.9rem;
+    font-size: 1.3rem;
     color: var(--color-text-page);
 }
 .work__project-post-button{
@@ -806,7 +814,7 @@
     position: absolute;
     border: 3px solid var(--color-button);
     padding: 27px 79px;
-    top: -6px;
+    top: -5px;
     left: -5px;
 }
 
