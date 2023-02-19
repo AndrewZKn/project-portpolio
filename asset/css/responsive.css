@@ -1,14 +1,5 @@
 
 /* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
-                    /*//////////////////////////////////////////////////////[PC___]//////////////////////////////////////////////////////*
-/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
-
-@media  only screen and (min-width: 63.9375em){
-    
-}
-
-
-/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
                     /*//////////////////////////////////////////////////////[MOBILE + TABLET___]//////////////////////////////////////////////////////*
 /* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 
@@ -38,8 +29,8 @@
     }
     .work__project-show-container{
         padding: 0 25px;
-        
     }
+    
     .work__project-wrap{
         display: block;
         margin-top: 10px;
@@ -55,9 +46,12 @@
     .work__project-show-list{
         position:absolute;
         top: 200px;
-        right: 170px;
+        right: 50px;
         height: unset;
         
+    }
+    .wrok__project-list{
+
     }
     .work__project-show-item:nth-child(1):after {
         margin: 10px 18px;
@@ -68,16 +62,16 @@
         justify-content: center;
     }
     .work__project-show-pc {
-        width: 80%;
+        width: 95%;
         height: 400px;
-        left: 100px;
+        left: 5px;
         
     }
     .work__project-show-mobile{
         width: 200px;
         height: 400px;
-        left: 100px;
-        top: 300px;
+        left: 50px;
+        /* top: 300px; */
 
 
     }
@@ -111,14 +105,15 @@
     .work__project-contact{
         padding: 0 25px;
     }
+    .work__project-button{
+        text-align: center
 
+    }
 
     .experiences__project-box{
         width: calc(100%/2);
     }
-    .work__project-button{
-        text-align: center
-    }
+    
     .experience__certificate-tivi .experience__certificate-img{
         margin: 0;
     }
@@ -189,7 +184,7 @@
     .navigation__ocean-author{
         width: 100%;
         text-align: center;
-        font-size: 1.4rem;
+        font-size: 1.5rem;
         letter-spacing: 2px;
         left: 0;
         bottom: 0;
@@ -198,18 +193,20 @@
     .navigation__ocean-creator{
         letter-spacing: 3px;
         padding-top: 10px;
-        font-size: 0.1rem;
-        
+        font-size: 1.4rem;
+
     }
+    
     .navigation__ocean-content-span{
-        font-size: 0.9rem;
+        font-size: 1.3rem;
+        letter-spacing: 5px;
     }
     .navigation__ocean-anchor{
         margin-top: 50px;
     }
     .navigation__ocean-name-span{
         color: var(--color-text);
-        font-size: 1.2rem;
+        font-size: 1.3rem;
 
     }
     .navigation__ocean-icon-anchor{
@@ -219,13 +216,11 @@
     
    
     .navigation__ocean-heading{
-        width: 250px;
-        height: 250px;
+        width: 100%;
+        height: 350px;
     }
     .navigation__ocean-content{
-        margin-bottom: 100px;
-        padding: 0;
-        margin-top: 100px;
+
     }
     .navigation__ocean-boat{
         margin-top: 100px;
@@ -236,21 +231,24 @@
     }
     
     .experieces__project-sub-heading{
-        font-size: 0.8rem;
+        font-size: 1.2rem;
         padding-top: 100px;
     }
     .experieces__project-heading-page{
-        font-size: 1.1rem;
+        font-size: 2.9rem;
         width: 100%;
         word-break: break-all;
     }
     .experiences__project-content-header{
         width: 100%;
         word-break: break-all;
+        font-size: 1.2rem;
 
     }
     .experiences__project-did{
         display: block;
+        position: absolute;
+        z-index: 1;
 
     }
     .experiences__project-box{
@@ -259,17 +257,34 @@
         margin-bottom: 100px;
 
     }
+
     .experiences__project-subtitle{
         width: 100%;
         margin-top: 10px;
+        font-size: 1.2rem;
     }
     .experiences__project-figure{
         display: flex;
         margin: auto;
     }
+    .experiences__project-button{
+
+    }
+    .experiences__project-btn-btn{
+        z-index: 1;
+    }
+    .experiences__project-btn-btn::before{
+        z-index: 2;
+        border: 3px solid var(--color-button);
+        top: -4px;
+        padding-top: 24px;
+        left: -5px;
+
+    }
     /* work  about*/
     .work__project{
         padding: 0;
+        padding-top: 200px;
     }
     .work__project-content{
         padding: 20px 0 40px 0;
@@ -291,8 +306,10 @@
     .work__project-about-map{
             background-size: cover;
             background-position: top;
+            top: 0;
             height:800px;
             width: 100%;
+            background-position: center;
     }
 
     .work__project-post-container{
@@ -308,6 +325,23 @@
     .work__project-post-button{
         margin-top: 300px;
     }
+    .work__project-button{
+       position: absolute;
+       z-index: 3;
+       bottom: -100px;
+    }
+    .work__project-btn-btn{
+        padding: 14px 60px;
+
+    }
+    .work__project-btn-btn::before{
+        width: 100%;
+        padding: 0;
+        height: 100%;
+        padding: 3px 2px;
+        left: -4px;
+
+    }
     /* project */
     .work__project-show-heading{
         padding: 120px 0 0 25px;
@@ -322,17 +356,17 @@
     }
     
     .work__project-show-title{
-        padding-bottom: 110px;
-        padding-top: 100px;
+        /* padding-bottom: 110px; */
+        padding-top: 50px;
     }
     .work__project-show-list{
         /* display: none; */
-        height: unset;
-        display: block;
-        align-items: center;
-        justify-content:center;
-        left: 25px;
+        display: none;
         
+        
+    }
+    .work__project-about-content{
+        margin: 0 0 25px 0;
     }
     .work__project-show-item {
         justify-content: center;
@@ -341,15 +375,20 @@
     .work__project-show-item:nth-child(1):after {
         margin: 10px 18px;
     }
+  
+    
     .work__project-show-mobile{
-        width: 150px;
-        height: 120px;
-        right: 30%;
+        width: 100px;
+        height: 250px;
+        right: 5px;
+        top: 109px;
+
 
     }
     .work__project-show-pc {
-        width: 250px;
-        height: 200px;
+        width: 85%;
+        left: 5px;
+        height: 220px;
 
 
     }
@@ -359,16 +398,17 @@
         justify-content: center;
         position: relative;
         z-index: 2;
-        left: 20%;
-        top: 110px;
+        
     }
     .work__project{
         padding-bottom: 0px;
 
     }
+    
   
-    .work__project-creator{
+    .work__project-show-titleheading .work__project-creator{
         margin: 20px 0 20px 0;
+        font-size: 2.9rem;
     }
     /* contact */
     .work__project-contact{
@@ -384,8 +424,9 @@
         display: flex;
         flex-direction: column-reverse;
     }
-    .work__project-creator{
+    .work__project-about-titleheading .work__project-creator{
         display: block;
+        font-size: 2.9rem;
     }
     h1.work-project-connect-value-span{
         word-break: break-all;
@@ -393,6 +434,9 @@
     }
     .work-project-connect-value-span{
        width: 100%;
+    }
+    .work__project-show-heading {
+        padding-right: 25px;
     }
     .work-project-form-both{
         display: block;
@@ -425,10 +469,14 @@
 
     }
     .work__project-post-span-content {
-        font-size: 0.9rem;
+        font-size: 1.5rem;
+    }
+    .work__project-post-span{
+        font-size: 1.4rem;
     }
     .work__project-post{
         padding: 0;
+        height: unset;
     }
     .work__project-post-button{
         margin-top: 100px;
@@ -438,6 +486,9 @@
         line-height: unset;
         height: unset;
         margin: 40px 0;
+    }
+    .work__project-post-titleheading .work__project-creator{
+        font-size: 2.9rem;
     }
     /*///////////////////////////////////////////////////////*/
     .experience__certificate-tivi {
